@@ -292,6 +292,11 @@ a.keyword {
         max-width: 100%;
     }
 
+    // Flickr で max-width 指定したときのアスペクト比をなおす
+     img[title*="Flickr"] {
+        height: auto !important;
+     }
+
     h1,h2,h3,h4,h5,h6 {
         margin: 1.3em 0 0.8em 0;
         line-height: 1.5;
