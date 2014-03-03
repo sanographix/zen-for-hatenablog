@@ -632,14 +632,13 @@ hr {
     a {
         color: @text-light;
         text-decoration: none;
-        letter-spacing: .2em;
         &:hover {
             color: @text;
         }
     }
 
     .pager-next {
-        margin-right: 1em;
+        margin-left: 2em;
     }
 
 }
@@ -687,36 +686,25 @@ hr {
 
 .page-archive {
 
-    #main {
+    .archive-entries {
 
-        section {
-            margin-bottom: 20px;
-        }
-
-        h1 {
-            font-size: 100%;
-            margin-bottom: 0;
-        }
-
-        ul {
-            .hatena-urllist;
+        .archive-entry {
+            margin-bottom: 3em;
         }
 
         .entry-title {
+            font-size: 130%;
+            margin: 0 0 .5em;
+        }
+        .categories {
+            margin: 0 0 .5em;
+        }
+        .entry-description {
             font-size: 100%;
+            margin: 0 0 1em;
+            line-height: 1.5em;
         }
 
-    }
-
-    .categories a {
-        color: #fff;
-        font-size: 70%;
-        background: #aaa;
-        padding: 3px 5px;
-        border-radius: 3px;
-        text-decoration: none;
-        .inline-block;
-        margin-right: 2px;
     }
 
 }
